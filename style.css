@@ -37,13 +37,13 @@ p {
 }
 
 i {
-  color: #ffb9b9;
+  color: #162b6d;
 }
 
 .header {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(#ff8dc7, #ff8dc7);
+  background-image: linear-gradient(#4550a0, #234277);
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(100% 0, 100% 77%, 50% 100%, 0 75%, 0 0);
@@ -59,7 +59,7 @@ i {
   right: 0;
   opacity: 0.4;
   z-index: -1;
-  background: linear-gradient(to right, #ffb9b9 0%, #ffacc7 0%, #ffddd2 100%);
+  background: linear-gradient(to right, #02adb0 0%, #665f9a 0%, #057379 100%);
 }
 
 .navbar::before {
@@ -71,7 +71,7 @@ i {
   right: 0;
   opacity: 0.4;
   z-index: -1;
-  background: linear-gradient(to right, #ffb9b9 0%, #ffacc7 0%, #ffddd2 100%);
+  background: linear-gradient(to right, #09366f 0%, #093f91 0%, #319fdf 100%);
 }
 
 .nav-item a {
@@ -113,7 +113,7 @@ i {
 
 .header-buttons a:hover {
   text-decoration: none;
-  color: #ffacc7;
+  color: #125e8e;
   background-color: #fff;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
@@ -205,7 +205,7 @@ i {
   left: 0;
   right: 0;
   z-index: -1;
-  background: linear-gradient(160deg, #ffacc7 55%, #fff 0%);
+  background: linear-gradient(160deg, #091679 55%, #fff 0%);
 }
 
 .money {
@@ -242,12 +242,12 @@ i {
 }
 
 .card-footer a {
-  border: 1px solid #ffacc7;
+  border: 1px solid #1c5f8c;
   border-radius: 100px;
   margin: 0 5px;
   padding: 12px 35px;
   outline: none;
-  color: #ffacc7;
+  color: #acc9ff;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4;
@@ -257,7 +257,7 @@ i {
 .card:hover .card-footer a {
   text-decoration: none;
   color: #fff;
-  background-color: #ffacc7;
+  background-color: #303bb1;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -268,7 +268,7 @@ i {
 
 .card:hover .card-header,
 .card:hover .money {
-  color: #ffacc7;
+  color: #1073a8;
 }
 
 .card-second {
@@ -290,11 +290,11 @@ i {
   left: 0;
   right: 0;
   z-index: -1;
-  background: linear-gradient(330deg, #ffb9b9 55%, #fff 0%);
+  background: linear-gradient(330deg, #0d4496 55%, #fff 0%);
 }
 
 .form-button button {
-  border: 1px solid #ffb9b9;
+  border: 1px solid #0b1f35;
   border-radius: 100px;
   margin: 0 5px;
   padding: 12px 35px;
@@ -309,7 +309,7 @@ i {
 
 form:hover .form-button button {
   background: #fff;
-  color: #ffb9b9;
+  color: #2570bf;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -331,7 +331,7 @@ form:hover .form-button button {
 
 .input-group-text {
   color: #fff !important;
-  background: #ffb9b9 !important;
+  background: #0f879a !important;
   border-radius: 0 100px 100px 0 !important;
   min-width: 130px;
   min-height: 45px;
@@ -346,7 +346,7 @@ form:hover .form-button button {
   width: 100%;
   height: auto;
   padding: 70px 0 20px 0;
-  background: #ffb9b9;
+  background: #25227e;
   position: relative;
 }
 
